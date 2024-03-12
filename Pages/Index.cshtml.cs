@@ -1,7 +1,7 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Cartheur._2024.Pages
+namespace Cartheur.Research.Pages
 {
     public class IndexModel : PageModel
     {
