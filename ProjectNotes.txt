@@ -1,0 +1,14 @@
+﻿March 2024
+The new cartheur.com site for the funding push
+
+11.03.2024
+	1139: With the success of implementation yesterday of fred and the head and animals interactive, as well as this morning's step into the emotional balance diagram - the central differentiator of the project - time is now to focus on the offering which has a brochure that will be:
+
+		* company.cartheur.com
+		* research.cartheur.com
+
+	Where what has been begun needs to be brought to a conclusion such that I can start with Crunchbase and looking toward Raizer. Costs accure each month and with the advent of the need of a flat and a job starting in April, this needs to be done post-haste.
+12.03.2024
+	1129: Moved the project to GitHub to involve a maintenance crew, when the time is right.
+	1150: Synchronized efforts between here and public sites like Crunchbase.
+	1218: To aid development, going to start over, push this code as a branch and work organically on main.
