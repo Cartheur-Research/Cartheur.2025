@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Cartheur._2024.Data
+namespace Cartheur.Research.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

@@ -1,8 +1,8 @@
-using Cartheur._2024.Data;
+using Cartheur.Research.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace Cartheur._2024
+namespace Cartheur.Research
 {
     public class Program
     {
