@@ -12,3 +12,5 @@ The new cartheur.com site for the funding push
 	1129: Moved the project to GitHub to involve a maintenance crew, when the time is right.
 	1150: Synchronized efforts between here and public sites like Crunchbase.
 	1218: To aid development, going to start over, push this code as a branch and work organically on main.
+26.03.2024
+	929: Created a horizon branch wherein to tear into this code and get something satisfactorily built.
