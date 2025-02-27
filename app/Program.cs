@@ -5,10 +5,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using PeachPied.Demo.Plugins;
-using PeachPied.WordPress.AspNetCore;
+using Cartheur.Web.Plugins;
 
-namespace PeachPied.Demo
+namespace Cartheur.Web
 {
     class Program
     {
@@ -35,9 +34,9 @@ namespace PeachPied.Demo
             services.AddWordPress(options =>
             {
                 // options.SiteUrl =
-                // options.HomeUrl = "http://localhost:5004";
+                //options.HomeUrl = 
                 
-                // options.PluginContainer.Add<DashboardPlugin>(); // add plugin using dependency injection
+                options.PluginContainer.Add<DashboardPlugin>(); // add plugin using dependency injection
             });
         }
 

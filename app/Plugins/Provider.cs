@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc.ViewEngines;
 using Pchp.Core;
 using PeachPied.WordPress.Standard;
 
-namespace PeachPied.Demo.Plugins
+namespace Cartheur.Web.Plugins
 {
     [Export(typeof(IWpPluginProvider))]
     class Provider : IWpPluginProvider

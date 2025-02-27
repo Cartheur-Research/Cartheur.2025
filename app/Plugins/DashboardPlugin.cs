@@ -5,7 +5,7 @@ using Pchp.Core;
 using Peachpie.AspNetCore.Mvc;
 using PeachPied.WordPress.Standard;
 
-namespace PeachPied.Demo.Plugins
+namespace Cartheur.Web.Plugins
 {
     public class DashboardPlugin : IWpPlugin
     {

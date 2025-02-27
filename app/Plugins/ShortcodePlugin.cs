@@ -8,7 +8,7 @@ using Peachpie.AspNetCore.Mvc;
 using Peachpie.AspNetCore.Web;
 using PeachPied.WordPress.Standard;
 
-namespace PeachPied.Demo.Plugins
+namespace Cartheur.Web.Plugins
 {
     class ShortcodePlugin : IWpPlugin
     {
