@@ -1,21 +1,16 @@
 ## Cartheur.Com site wordpress
 
-This project demonstrates how to start an ASP.NET Core server, integrate WordPress into its pipeline and add additional PHP plugins into it.
+This project leverages an ASP.NET Core server that integrates WordPress into its pipeline and a developer can add additional PHP plugins as needed.
 
 ### WordPress
 
-Even though the project is noticeably small, it contains the entire WordPress CMS. How? This complex PHP web framework was already compiled into the .NET Standard library (see [wpdotnet-sdk](https://github.com/iolevel/wpdotnet-sdk) for more information) and packed into a NuGet package. This demo may just reference it.
-
-To find out more about PeachPie, check out our [peachpie.io](https://www.peachpie.io/), which includes tutorials, benchmarks and articles on PeachPie.
+The project contains the entire WordPress CMS. This complex PHP web framework was already compiled into the .NET Standard library (see [wpdotnet-sdk](https://github.com/iolevel/wpdotnet-sdk) for more information) and packed into a NuGet package. This code references it. To find out more about PeachPie, check out [peachpie.io](https://www.peachpie.io/), which includes tutorials, benchmarks, and articles on PeachPie.
 
 ### Create MySQL database
 
 WordPress requires you to start your database server with a database in it. By default it expects a database server on localhost, port 3306, with a database named *"wordpress"*.
 
-You can use *docker* to quickly start a database server in virtual environment:
-```
-docker run -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=wordpress -p 3306:3306 -d mysql
-```
+
 
 ### Build &amp; Run
 
