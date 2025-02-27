@@ -14,6 +14,8 @@ For the host, the connection-string is:
 
 `"server=emysql501.discountasp.net; database=MYSQL5_1019164_cartheur; uid=cartheurdev; pwd=******"`
 
+Account details have already been placed in appsettings.json but you will need to add the password that was shared by Malik.
+
 ### Build &amp; Run
 
 Note, this is a regular ASP.NET web project. Building, running, debugging, and deploying the site take advantage of `dotnet`, optionally Visual Studio.
