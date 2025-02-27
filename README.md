@@ -8,7 +8,9 @@ The project contains the entire WordPress CMS. This complex PHP web framework wa
 
 ### Create MySQL database
 
-WordPress requires you to start your database server with a database in it. By default it expects a database server on localhost, port 3306, with a database named *"wordpress"*.
+WordPress requires you to start the database server with a database in it. By default it expects a database server on localhost, port 3306, with a database named *"wordpress"*.
+
+For the host, these details are:
 
 
 
