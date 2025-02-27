@@ -1,0 +1,12 @@
+<Project>
+
+    <!-- $(PeachpieVersion) property from the current Peachpie.NET.Sdk -->
+    <Import Project="Version.props" Sdk="Peachpie.NET.Sdk" Condition=" '$(PeachpieVersion)'=='' " />
+
+    <!-- $(WpDotNetVersion) property from the current PeachPied.WordPress.Build.Plugin -->
+    <Import Project="Version.props" Sdk="PeachPied.WordPress.Build.Plugin" Condition=" '$(WpDotNetVersion)'=='' " />
+    <!--PropertyGroup>
+        <WpDotNetVersion>6.7.1</WpDotNetVersion>
+    </PropertyGroup-->
+
+</Project>
