@@ -10,9 +10,9 @@ The project contains the entire WordPress CMS. This complex PHP web framework wa
 
 WordPress requires you to start the database server with a database in it. By default it expects a database server on localhost, port 3306, with a database named *"wordpress"*.
 
-For the host, these details are:
+For the host, the connection-string is:
 
-
+`"server=emysql501.discountasp.net; database=MYSQL5_1019164_cartheur; uid=cartheurdev; pwd=******"`
 
 ### Build &amp; Run
 
